@@ -87,6 +87,11 @@ button {
   height: 20px;
 }
 
+.pageContainer {
+  padding-bottom:72px;
+}
+
+
 .pageContainer,
 .offers,
 .profile,

@@ -8,29 +8,31 @@ export default function Explore() {
     <div className="pageContainer">
       <div className="Explore">
         <header>
-          <p className="pageHeader">Explore</p>
+          <h2 className="pageHeader">Explore</h2>
         </header>
         <main>
           <Slider/>
-          <p className="exploreCategoryHeading">
+          <h3 className="exploreCategoryHeading">
             Categories
-          </p>
+          </h3>
           <div className="exploreCategories">
             <Link to='category/rent'>
+            <p className="exploreCategoryName">Places for rent</p>
               <img 
                 src={rentCategoryImage}
                 alt="rent"
                 className="exploreCategoryImg"
               />
-              <p className="exploreCategoryName">Places for rent</p>
+              
             </Link>
             <Link to='category/sale'>
+            <p className="exploreCategoryName">Places for sale</p>
               <img 
                 src={sellCategoryImage}
                 alt="sale"
                 className="exploreCategoryImg"
               />
-              <p className="exploreCategoryName">Places for sale</p>
+              
             </Link>
           </div>
         </main>
