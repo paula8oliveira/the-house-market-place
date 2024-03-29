@@ -335,6 +335,7 @@ button {
   position: relative;
   width: 100%;
   padding-top: 60%;
+  cursor: pointer;
 
   @media (min-width: 1217px) {
     padding-top: 25%;
