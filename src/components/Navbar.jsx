@@ -8,14 +8,14 @@ export default function Navbar() {
     const location = useLocation()
 
     const pathMatchROute = (route) => {
-        if(route == location.pathname) {
+        if(route === location.pathname) {
             return true
         }
     }
 
   return (
     <>
-      <footer className='navbar'>
+      <header className='navbar'>
         <nav className='navbarNav'>
             <ul className='navbarListItems'>
                 <li className='navbarListItem' onClick={()=> navigate('/')}>
@@ -32,7 +32,7 @@ export default function Navbar() {
                 </li>
             </ul>
         </nav>
-      </footer>
+      </header>
     </>
   )
 }

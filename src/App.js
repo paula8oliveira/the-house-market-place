@@ -19,6 +19,7 @@ function App() {
   return (
     <>
       <Router>
+        <Navbar/>
         <Routes>
           <Route path="/" element={<Explore/>} />
           <Route path="/offers" element={<Offers/>} />
@@ -34,7 +35,6 @@ function App() {
           <Route path='/contact/:landlordId' element={<Contact />} />
           <Route path="/edit-listing/:listingId" element={<EditListing/>} />
         </Routes>
-        <Navbar/>
       </Router>
       <ToastContainer/>
     </>

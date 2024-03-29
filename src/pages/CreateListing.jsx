@@ -217,7 +217,7 @@ export default function CreateListing() {
   }
 
   return (
-    <div className='profile'>
+    <div className='profile pageContainer'>
       <header>
         <p className='pageHeader'>
           Creating Listing

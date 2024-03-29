@@ -76,19 +76,19 @@ button {
   cursor: pointer;
   position: absolute;
   top: -8%;
-  right: -2%;
+  left: 18px;
   height: 20px;
 }
 .editIcon {
   cursor: pointer;
   position: absolute;
-  top: -7.4%;
-  right: 20px;
+  top: -8.4%;
+  left: 0;
   height: 20px;
 }
 
 .pageContainer {
-  padding-bottom:72px;
+  padding-top:72px;
 }
 
 
@@ -149,7 +149,7 @@ button {
 .navbar {
   position: fixed;
   left: 0;
-  bottom: 0;
+  top: 0;
   right: 0;
   height: 85px;
   background-color: #ffffff;
@@ -407,7 +407,8 @@ button {
   margin-bottom: 10rem;
 }
 
-.categoryListings {
+.categoryListings,
+.listingsList {
   padding: 0;
 }
 
@@ -417,6 +418,13 @@ button {
   align-items: center;
   margin-bottom: 1rem;
   position: relative;
+  padding: 10px 0 30px 0;
+  margin-top: 40px;
+  border-bottom: 1px solid #cccccc;
+}
+
+.categoryListing:last-of-type {
+  border-bottom: 0;
 }
 
 .categoryListingLink {

@@ -247,7 +247,7 @@ export default function EditListing() {
   }
 
   return (
-    <div className='profile'>
+    <div className='profile pageContainer'>
       <header>
         <p className='pageHeader'>
           Edit Listing
